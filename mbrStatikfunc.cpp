@@ -8,4 +8,12 @@ private:
 public:
     int id;
     string nama;
+
+    void setId();
+    void printA11();
+
+    static void setNimm(int pNim){nim=pNim; /*Definisi Function*/}
+    static int getNim(){return nim; /*Definisi Function*/}
+
+    mahasiswa(string pnama):nama(pnama){setId();}
 };
