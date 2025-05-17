@@ -7,6 +7,7 @@ class buku
 public:
     buku setJudul(string judul)
     {
-        this
+        this->judul = judul;
+        return *this; // chain function
     }
 }
